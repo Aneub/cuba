@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Cuba">
+<meta name="Cuba, Destinations" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Alison Neubauer">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cuba</title>
+<link href="cubacss.css" rel="stylesheet" type="text/css">
+<link href="bootstrap/bootstrap.css" rel="stylesheet">
+</head>
+
+<div class="container">
+
+<body>
+  <div class="content">
+  
+  <div class="row">
+  <header>
+  	<h1>Cuba</h1>
+  </header>
+  </div>
+  
+  <div class="row">
+  <nav>
+	<ul>
+      <li><a href="cuba.html">HOME</a></li>
+      <li><a href="places.html">PLACES/ACTIVITIES</a></li>
+      <li><a href="transportation.html">GETTING AROUND</a></li>
+      <li><a href="culture.html">CULTURE</a></li>
+	</ul>
+  </nav>
+  </div>
+  
+  <div class="row">
+  <main>	
+    <div class="col-sm-6">
+    <img src="buildings.jpg" alt="Havana" width="400" height="302" class="img1 img-responsive" title="Havana">
+    </div>
+    
+    <div class="col-sm-6">
+    <h2 class="mainh3">Acere, que bola?!</h2>
+    <p class="mainp">The caribbean island of Cuba is characterized by its colorful spanish-colonia style architecture, salsa music, tobacco plantations, white sand beaches and wonderful people. Make some friends, find a street party, enjoy a mojito and dance to some live music. This beautiful country is full of history, full of life and full of suprises</p> 
+    </div>   
+  </main>
+  </div>
+  
+  <div class="row row4">
+  <div class="col-sm-6">
+  <p class="end">Wander and Discover. There are a variety of things to do and explore, with people more than willing to help you along the way and share their life and culture</p>
+  </div>
+  
+  <div class="col-sm-6">
+  <img src="people.jpg" alt="people smiling" width="422" class="img2 img-responsive">
+  </div>
+  </div>
+  
+  
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <p class="row5">Read</p>
+</div>
+
+<div class="mySlides fade">
+  <p class="row5">Learn</p>
+</div>
+
+<div class="mySlides fade">
+  <p class="row5">Enjoy</p>
+</div>
+
+</div>
+<br>
+
+<div >
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 3 seconds
+}
+</script>
+  </div>
+  
+  
+  
+  
+  <footer>
+  &copy; Cuba <a href="mailto:alison.neubauer4@gmail.com">alison.neubauer4@gmail.com</a> <a href="contact.html" style="float: right;">CONTACT US</a>
+  </footer>
+  
+   
+</body>
+
+
+</div>
+</html>

@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.container {margin:auto;
+ 
+			background-image: url(vinales3.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			}
+
+.content {
+	padding-left: 150px;
+	padding-right: 150px;
+		  }			
+			
+header h1 {
+	font-size: 550%;
+	padding-top: 0px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+	
+nav ul {
+	text-align: center;
+	list-style-type: none;
+	padding-bottom: 30px;
+	font-size: 180%;
+}
+			
+nav li {
+	padding: 10px;
+	display: inline;
+	font-weight: bold;
+}
+
+
+.row5 {
+	font-size: 500%;
+	text-align: center;
+}
+
+
+
+.end {
+	text-align: center;
+	font-size: 150%;
+	margin-top: 75px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+footer {
+	margin-top: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+footer a {color: #1A1C74;
+}
+
+footer a:hover {color: red;
+}
+
+.mainp {
+	font-size: 150%;
+	text-align: center;
+	font-weight: bold;
+}
+.mainh3 {font-size: 230%;
+	font-weight: bold;
+	text-align: center;
+}
+.img1 {
+	padding-top: 25px;
+}
+.img2 {
+	padding-left: 15px;
+}
+.row4 {
+	margin-top: 30px;
+}
+li a {
+	color: #1A1C74;
+}
+li a:hover {
+	color: red;
+}
+.placesmain {
+	text-align: center;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.placeslist {text-align: center; 
+			 margin-top: 50px; 
+}
+
+.h2places {font-weight: bold;
+		   font-size: 250%
+
+}
+.placeslist h5 {font-weight: bold;
+	font-size: 20px; 
+}
+
+.placeslist h4 {font-weight: bold;
+}
+
+.placeslist ul {list-style-type: none;
+				padding-top: 15px;
+				padding-bottom: 15px;				
+}
+
+.placeslist li {display: inline;
+				font-weight: bold;
+				font-size: 175%; 
+				padding: 30px;
+}
+
+.translist h2 {font-weight: bold;
+			   font-size: 190%;
+}
+
+.translist p {
+	font-size: 130%;
+	font-weight: bold;
+}
+
+.flt_rgt {float: right;
+		  padding-left: 15px;
+}
+
+.flt_lft {float: left;
+		   padding-right: 15px;
+}
+
+.align {text-align: center;
+		font-weight: bold;
+}
+
+.schedules { margin-left: 175px;
+}
+
+article table caption {color: #CB6313;
+					   font-size: 1.7em;
+					   font-weight: bold;
+}
+
+article table th {font-size: 1.7em;
+}
+
+article table td {font-weight: 550;
+				   font-size: 1.5em;
+}
+
+article table td, th {padding: 5px;
+}
+
+form {font-weight: bold;
+	  font-size: 1.3em;
+}
+
+#contact {font-weight: bold;
+		   text-align: center;
+}
+
+#linkscol {padding-left: 100px;
+		   font-size: 25px;
+		   font-weight: bold;
+}
+
+aside h3 {font-weight: bold;
+}
+
+.dest_main {font-weight: bold;
+		   font-size: 130%;
+		   text-align: center;
+}
+
+.dest_main h1 {font-weight: bold;
+}
+
+.dest_main h3 {font-weight: bold;
+}
+
+.culture_list {
+			   font-weight: bold;
+			   font-size: 150%;
+}
+.culture_list h1 {text-align: center;
+}
+
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+@media (max-width: 426px) {
+	
+	[class*="col-"] {
+        width: 100%;
+    }
+	
+	img {width: 100%;
+		 height: auto;
+	}
+}
